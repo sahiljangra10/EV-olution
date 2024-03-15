@@ -1,0 +1,88 @@
+.hero{
+  display: flex;
+  flex-direction: column;
+  margin: 50px 120px;
+}
+
+.hero h1{
+  font-size: 50px;
+  font-weight: 600;
+  color: white;
+}
+
+.input{
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+.input input{
+  padding: 0 10px;
+  color: black;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  width: 150px;
+}
+
+.input button{
+  border: none;
+  outline: none;
+  background: white;
+  cursor: pointer;
+  border-radius: 50%;
+  padding-top: 2px;
+}
+
+.input button img{
+  width: 40px;
+}
+
+.controls{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 38px;
+}
+
+.controls button{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.controls button img{
+  width: 45px;
+  margin-right: 7px;
+}
+
+.radios{
+  display: flex;
+  align-items: center;
+  gap: 23px;
+  list-style: none;
+}
+
+.hero-dot{
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 7.5px;
+  cursor: pointer;
+}
+
+.hero-dot.orange{
+  background: orangered;
+}
+
